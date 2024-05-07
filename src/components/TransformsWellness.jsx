@@ -17,8 +17,8 @@ import dottedline from '../assets/images/webp/dotted-line-img.webp';
 const TransformsWellness = () => {
     return (
         <div className='xl:pt-[97px] lg:pt-[60px] md:pt-[50px] pt-[40px] xl:pb-[170px] lg:pb-[100px] md:pb-[70px] sm:pb-[50px] pb-[40px] relative '>
-            <img src={dottedline} alt="dottedline" className='max-w-[85px] w-full z-0 object-contain absolute bottom-[16%] left-[7%]' />
-            <img src={greencircle} alt="greencircle" className='max-w-[27px] w-full z-0 absolute bottom-[10%] left-[4%]' />
+            <img src={dottedline} alt="dottedline" className='max-w-[85px] w-full z-0 object-contain absolute bottom-[16%] left-[7%] lg:block hidden' />
+            <img src={greencircle} alt="greencircle" className='max-w-[27px] w-full z-0 absolute bottom-[10%] left-[4%] lg:block hidden' />
             <div className='container xl:max-w-[1164px] px-3 mx-auto relative'>
                 <img src={rectangleimg} alt="rectangleimg" className='absolute max-w-[72px] max-h-[72px] object-contain h-full left-[47%] top-[8%] xl:block hidden' />
                 <div className='flex justify-center items-center flex-col' data-aos="fade-down">
